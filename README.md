@@ -3,7 +3,7 @@
 We have 2 packages and your app. This is mimicking a [situation](https://github.com/mapbox/node-pre-gyp/issues/162#issuecomment-216877736) from `serialport` and `node-pre-gyp`
 
 # What happens
-We get a loop during install that never ends and eventually crashes.
+We get a loop during install that installs `dep-dep` over and over again. It never ends and eventually crashes.
 
 ```
 kidrobot:app$ npm i ../dep
