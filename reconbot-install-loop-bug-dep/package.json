@@ -1,11 +1,11 @@
 {
-  "name": "dep",
+  "name": "reconbot-install-loop-bug-dep",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm install ../dep-dep"
+    "preinstall": "npm install reconbot-install-loop-bug-dep-dep"
   },
   "author": "",
   "license": "ISC"

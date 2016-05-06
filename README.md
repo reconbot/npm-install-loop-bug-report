@@ -41,6 +41,4 @@ kidrobot:app$ npm i ../dep
 # Steps to reproduce
 
  1. Ensure you're using node v0.12.7 and npm v3.8.8
- 2. clone this repo
- 3. cd into `app`
- 4. run `npm install ../dep`
+ 4. run `npm install reconbot-install-loop-bug-dep`
